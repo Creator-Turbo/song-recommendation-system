@@ -17,58 +17,55 @@
 - [Credits](#credits)
 
 ---
-
 ## Demo
-This project provides movie recommendations based on content similarity using machine learning techniques.<br>
-**Link to Demo:** [Movie-Recommender-System](#) 
+This project provides song recommendations based on content similarity using machine learning techniques.<br>
+**Link to Demo:** [Song-Recommendation-System](#) 
 
-## song recommendation system
-
-![Movie Recommender](https://i.imgur.com/Mb5qOcx.png)
+![Song Recommender](https://www.muvi.com/wp-content/uploads/2022/04/Music-recommendation-system-%E2%80%93-Revolutionizing-Music-streaming-industry.jpg)
 
 ---
 
 ## Overview
-The **Movie-Recommender-System** project leverages natural language processing (NLP) and machine learning techniques to suggest movies based on user preferences.
+The **Song-Recommendation-System** project leverages natural language processing (NLP) and machine learning techniques to suggest songs based on user preferences.
 
 Key features:
-- Content-based filtering for movie recommendations.
+- Content-based filtering for song recommendations.
 - Data preprocessing using Bag-of-Words (BoW).
 - Web-based interface for user interaction.
 
 ## Model Performance
 
 ### Evaluation Metrics
-- **Cosine Similarity Score**: Measures the closeness of movies based on textual descriptions.
+- **Cosine Similarity Score**: Measures the closeness of songs based on textual descriptions.
 
 ### Model Training Details
 - **Vectorization**: BoW (Term Frequency-Inverse Document Frequency)
 - **Similarity Calculation**: Cosine Similarity
-- **Dataset**: TMDB 5000 Movies Dataset
+- **Dataset**: Spotify / Last.fm song dataset
 
 ---
 
 ## Motivation
-Recommender systems help users discover movies based on their interests, improving their movie-watching experience.
+Recommender systems help users discover songs based on their interests, improving their music-listening experience.
 
-This project showcases the application of NLP and machine learning for movie recommendation based on textual metadata.
+This project showcases the application of NLP and machine learning for song recommendation based on textual metadata.
 
 ---
 
 ## Technical Aspect
-### Training Movie Recommendation Model:
+### Training Song Recommendation Model:
 1. **Data Collection**:
-   - Movies dataset collected from TMDB (The Movie Database).
+   - Song dataset collected from Spotify / Last.fm.
 
 2. **Preprocessing**:
-   - Cleaning movie descriptions by removing special characters and stopwords.
+   - Cleaning song descriptions by removing special characters and stopwords.
    - Converting text to numerical representations using Bag-of-Words (BoW).
 
 3. **Model Training**:
-   - Computing similarity between movies using Cosine Similarity.
+   - Computing similarity between songs using Cosine Similarity.
 
 4. **Web Application**:
-   - A Flask-based web app allows users to enter movie names and receive recommendations.
+   - A Flask-based web app allows users to enter song names and receive recommendations.
    - The app is deployed on Render for public access.
   
 ---
@@ -98,9 +95,9 @@ To deploy the Flask web app on Render:
 
 ## Directory Tree 
 ```
-Movie-Recommender-System/
+Song-Recommendation-System/
 │
-├── data/                # Movie dataset
+├── data/                # Song dataset
 ├── model/               # Trained models
 ├── static/              # Static files (CSS, JS, Images)
 │   ├── css/
@@ -132,43 +129,31 @@ If you encounter any bugs or want to request a new feature, please open an issue
 - pandas (for data manipulation)
 - numpy (for numerical computations)
 
-
-
-
-
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
-
 
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/260px-Scikit_learn_logo_small.svg.png" width=170>](https://pandas.pydata.org/docs/)
 [<img target="_blank" src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*RWkQ0Fziw792xa0S" width=170>](https://pandas.pydata.org/docs/)
- [<img target="_blank" src="https://icon2.cleanpng.com/20180829/okc/kisspng-flask-python-web-framework-representational-state-flask-stickker-1713946755581.webp" width=170>](https://flask.palletsprojects.com/en/stable/) 
+[<img target="_blank" src="https://icon2.cleanpng.com/20180829/okc/kisspng-flask-python-web-framework-representational-state-flask-stickker-1713946755581.webp" width=170>](https://flask.palletsprojects.com/en/stable/) 
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/512px-NumPy_logo_2020.svg.png" width=200>](https://numpy.org/doc/) 
 
-
-
-
-
-
+---
 
 ## Team
 This project was developed by:
 [![Bablu kumar pandey](https://github.com/Creator-Turbo/images-/blob/main/resized_image.png?raw=true)](ressume_link) |
 -|
 
-
 **Bablu Kumar Pandey**
-
 
 - [GitHub](https://github.com/Creator-Turbo)  
 - [LinkedIn](https://www.linkedin.com/in/bablu-kumar-pandey-313764286/)
-* **Personal Website**: [My Portfolio](https://creator-turbo.github.io/Creator-Turbo-Portfolio-website/)
+- **Personal Website**: [My Portfolio](https://creator-turbo.github.io/Creator-Turbo-Portfolio-website/)
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 You are free to use, modify, and distribute this software under the terms of the MIT License. For more details, see the [LICENSE](LICENSE) file included in this repository.
-
 
 ## Credits
 
